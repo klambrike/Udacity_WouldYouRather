@@ -16,4 +16,4 @@ This will run the app in the development mode.<br>
 Now open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-######This was developed during the Udacity React course.
+###### This was developed during the Udacity React course.
