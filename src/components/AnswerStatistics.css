@@ -1,0 +1,66 @@
+.answer-option {
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: lightgray;
+    --text-color: black;
+    position: relative;
+}
+
+.answer-option.answer-option-selected {
+    background-color: rgb(242, 255, 242);
+    border-color: rgb(164, 201, 164);
+    border-width: 2px;
+    --text-color: rgb(56, 90, 56);;
+}
+
+.your-answer {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    border-style: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 13px;
+    background-color: gold;
+    font-weight: 600;
+    color: white;
+    line-height: 1;
+}
+
+.answer-text {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.answering-percentage-container {
+    background-color: gainsboro;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.answering-percentage-text {
+    position: absolute;
+    z-index: 1;
+    left: 48%;
+}
+
+.answering-percentage-filler {
+    background-color: springgreen;
+    width: var(--progress-width);
+    border-radius: 5px;
+    height: 24px;
+    position: absolute;
+}
+
+.answers-count-text {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.LeaderBoards {
+    display: flex;
+    flex-direction: column;
+}
+
+.LeaderBoards h1 {
+    margin: auto;
+    margin-bottom: 20px;
+}

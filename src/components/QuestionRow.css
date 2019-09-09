@@ -1,0 +1,14 @@
+.QuestionRow-author {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 0px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: darkgray;
+    margin-right: 20px;
+}
+
+.QuestionRow-author-image {
+    width: 150px;
+}
