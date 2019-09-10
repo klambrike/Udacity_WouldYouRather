@@ -1,9 +1,6 @@
 import { addQuestion, getQuestions, saveQuestionAnswer } from '../utils/api'
 import { showLoading, hideLoading } from "react-redux-loading";
-
-export const LOAD_QUESTIONS = 'LOAD_QUESTIONS'
-export const QUESTION_ADDED = 'QUESTION_ADDED'
-export const QUESTION_ANSWERED = 'QUESTION_ANSWERED'
+import { LOAD_QUESTIONS, QUESTION_ANSWERED } from './types'
 
 export function handleAddNewQuestion(author, optionA, optionB) {
     return (dispatch) => {

@@ -1,4 +1,4 @@
-import { LOAD_QUESTIONS} from '../actions/questions'
+import { LOAD_QUESTIONS} from '../actions/types'
 
 export default function questions(state = {}, action) {
     switch(action.type) {

@@ -1,9 +1,6 @@
 import { getUsers } from '../utils/api';
 import { showLoading, hideLoading } from 'react-redux-loading';
-
-export const AUTH_USER = 'AUTH_USER'
-export const GET_USER_LIST = 'GET_USER_LIST'
-export const LOG_OUT = 'LOG_OUT'
+import { AUTH_USER, GET_USER_LIST, LOG_OUT } from './types'
 
 export function setAuthedUser(userId) {
     return {

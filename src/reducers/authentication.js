@@ -1,4 +1,4 @@
-import { AUTH_USER, GET_USER_LIST, LOG_OUT } from "../actions/authentication";
+import { AUTH_USER, GET_USER_LIST, LOG_OUT } from "../actions/types";
 
 export default function authentication(state = {users: {}}, action) {
     switch(action.type) {

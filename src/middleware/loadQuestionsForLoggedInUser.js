@@ -1,4 +1,4 @@
-import { AUTH_USER } from '../actions/authentication';
+import { AUTH_USER } from '../actions/types';
 import { handleLoadAllQuestions } from '../actions/questions'
 
 const loadQuestions = (store) => (next) => (action) => {
